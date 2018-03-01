@@ -5,10 +5,10 @@ library(plyr)
 
 authenticat <- function() {
   #create api key and others mentioned here by visiting dev.twitter.com
-  api_key <- "HjgMdkxQRJfRB9UZySPKBsp60"
-  api_secret <- "JfBqWkBDS3YGZxBUEbENFNO4jYcBf2IQFNspNo5kA5DlAo2u7b"
-  access_token <- "596155228-upJWe5cACGBgwZ0xVPHxdmBP6rXB5Qcc6d6Sqjav"
-  access_token_secret <- "FeW9Fcryr7CM8Soyl909LHuDtTSZ5pvRxGuz2chsUyrg1"
+  api_key <- "****"
+  api_secret <- "****"
+  access_token <- "****"
+  access_token_secret <- "****"
 
   #direct authentication
   setup_twitter_oauth(api_key,api_secret,access_token,access_token_secret)
